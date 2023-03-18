@@ -1,0 +1,283 @@
+
+.Footer{
+    width: 100%;
+    background: #060C42;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.Footer_box{
+    width: 80%;
+    margin: auto;
+}
+
+.Footer_box_box{
+    display: grid;
+    grid-template-columns: 2fr repeat(4,1fr);
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.Footer_box_box_zeeh{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.Footer_box_box_zeeh h6{
+    color: white;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140.62%;
+}
+
+.Footer_box_box_product h3{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.Footer_box_box_product p{
+    width: 132px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.Footer_box_box_down{
+    border-top: 1px solid #D7D7D7;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.Footer_box_box_down{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+}
+
+.Footer_box_box_down_socials{
+    display: flex;
+    gap: .7rem;
+}
+
+.Footer_box_box_down_socials_icon{
+    background: #494e85;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: .3rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 448px) {
+    
+.Footer{
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.Footer_box{
+    width: 80%;
+    margin: auto;
+}
+
+.Footer_box_box{
+    gap: .3rem;
+}
+
+.Footer_box_box_zeeh{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.Footer_box_box_zeeh_img{
+    width: 20%;
+    height: unset;
+}
+
+.Footer_box_box_zeeh h6{
+    font-size: 4px;
+    line-height: 140.62%;
+}
+
+.Footer_box_box_product h3{
+    font-size: 6px;
+    line-height: 10px;
+}
+
+.Footer_box_box_product p{
+    width: 70%;
+    font-size: 5px;
+    line-height: 8px;
+}
+
+.Footer_box_box_down{
+    padding-top: .5rem;
+    margin-top: 1rem;
+}
+
+.Footer_box_box_down{
+    font-size: 3px;
+    line-height: 120.62%;
+}
+
+.Footer_box_box_down_socials{
+    display: flex;
+    gap: .3rem;
+}
+
+.Footer_box_box_down_socials_icon{
+    font-size: .8rem;
+    padding: .1rem;
+}
+
+}
+@media screen and (min-width: 449px) and (max-width: 768px) {
+    
+.Footer{
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.Footer_box{
+    width: 80%;
+    margin: auto;
+}
+
+.Footer_box_box{
+    gap: .3rem;
+}
+
+.Footer_box_box_zeeh{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.Footer_box_box_zeeh_img{
+    width: 20%;
+    height: unset;
+}
+
+.Footer_box_box_zeeh h6{
+    font-size: 4px;
+    line-height: 140.62%;
+}
+
+.Footer_box_box_product h3{
+    font-size: 6px;
+    line-height: 10px;
+}
+
+.Footer_box_box_product p{
+    width: 70%;
+    font-size: 5px;
+    line-height: 8px;
+}
+
+.Footer_box_box_down{
+    padding-top: .5rem;
+    margin-top: 1rem;
+}
+
+.Footer_box_box_down{
+    font-size: 3px;
+    line-height: 120.62%;
+}
+
+.Footer_box_box_down_socials{
+    display: flex;
+    gap: .3rem;
+}
+
+.Footer_box_box_down_socials_icon{
+    font-size: .8rem;
+    padding: .1rem;
+}
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+.Footer{
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.Footer_box{
+    width: 80%;
+    margin: auto;
+}
+
+.Footer_box_box{
+    gap: .3rem;
+}
+
+.Footer_box_box_zeeh{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.Footer_box_box_zeeh_img{
+    width: 20%;
+    height: unset;
+}
+
+.Footer_box_box_zeeh h6{
+    font-size: 6px;
+    line-height: 140.62%;
+}
+
+.Footer_box_box_product h3{
+    font-size: 7px;
+    line-height: 11px;
+}
+
+.Footer_box_box_product p{
+    width: 70%;
+    font-size: 6px;
+    line-height: 10px;
+}
+
+.Footer_box_box_down{
+    padding-top: .5rem;
+    margin-top: 1rem;
+}
+
+.Footer_box_box_down{
+    font-size: 3px;
+    line-height: 120.62%;
+}
+
+.Footer_box_box_down_socials{
+    display: flex;
+    gap: .3rem;
+}
+
+.Footer_box_box_down_socials_icon{
+    font-size: .8rem;
+    padding: .1rem;
+}
+
+}

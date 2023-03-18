@@ -1,0 +1,566 @@
+
+.Boxes{
+    width: 100%;
+    background: linear-gradient(167.21deg, rgba(217, 217, 217, 0) 13.78%, rgba(217, 190, 255, 0.33) 33.92%, rgba(217, 189, 255, 0.49) 52.41%, rgba(241, 231, 255, 0) 66.84%);
+}
+.Boxes_box{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.Boxes_box h2{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.18em;
+    color: #707070;
+    text-align: center;
+}
+
+.Boxes_box h3{
+    margin-bottom: 4rem;
+    text-align: center;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #4D4D4D;
+}
+
+.Boxes_box_square{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.Boxes_box_square_box{
+    padding: 2rem;
+    text-align: center;
+    width: 411.56px;
+    height: 277.16px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 12.3037px;
+    box-shadow: 1px 1px 2px 2px rgb(202, 197, 197);
+}
+
+.Boxes_box_square_box_img2{
+    margin-bottom: 15%;
+}
+.Boxes_box_square_box_img3{
+    margin-bottom: 5%;
+}
+.Boxes_box_square_box_img4{
+    margin-bottom: 10%;
+}
+
+.Boxes_box_square_box h4{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18.4556px;
+    line-height: 30px;
+    align-items: center;
+    text-transform: capitalize;
+    color: #4D4D4D;
+}
+
+.Boxes_box_square_box p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.4582px;
+    line-height: 20px;
+    align-items: center;
+    color: rgba(77, 77, 77, 0.65);
+}
+
+.Boxes_box_award{
+    margin-top: 5rem;
+}
+
+.Boxes_box_award_circle{
+    margin-top: 5rem;
+    background-color: white;
+    box-shadow: 1px 1px 1px 2px rgb(214, 210, 210);
+    border-radius: 50%;
+    align-items: center;
+    width: 20%;
+    margin: auto;   
+}
+
+.Boxes_box_award_details{
+    margin-top: .8rem;
+    text-align: center;
+}
+
+.Boxes_box_award_details h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #293CE2;
+}
+
+.Boxes_box_award_details h5{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303030;
+}
+
+.Boxes_box_award_details p{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #7B7B7B;
+}
+
+.Boxes_box_award_details h1{
+    width: 577px;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 67px;
+    line-height: 79px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #050F3A;
+}
+
+.Boxes_box_award_details_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.Boxes_box_award_details_button button{
+    padding: 9px 24px;
+    gap: 10px;
+    width: 150px;
+    height: 39px;
+    background: linear-gradient(124.32deg, #1A23DC 19.22%, #62228A 46.62%);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+    color: #FFFFFF;
+    
+}
+
+.Boxes_box_award_details_button h6{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #293CE1;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 448px) {
+.Boxes_box{
+    width: 60%;  
+}
+
+.Boxes_box h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 4px;
+    line-height: 8px;
+}
+
+.Boxes_box h3{
+    margin-bottom: 1rem;
+    font-size: 10px;
+    line-height: 14px;
+
+}
+
+.Boxes_box_square{
+    gap: .5rem;
+}
+
+.Boxes_box_square_box{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.Boxes_box_square_box_img1{
+    width: 30%;
+    height: unset;
+}
+.Boxes_box_square_box_img2{
+    margin-bottom: 15%;
+    width: 30%;
+    height: unset;
+}
+.Boxes_box_square_box_img3{
+    margin-bottom: 5%;
+    width: 30%;
+    height: unset;
+}
+.Boxes_box_square_box_img4{
+    margin-bottom: 10%;
+    width: 30%;
+    height: unset;
+}
+
+.Boxes_box_square_box h4{
+    font-size: 6px;
+    line-height: 10px;
+}
+
+.Boxes_box_square_box p{
+    font-size: 3px;
+    line-height: 6px;
+}
+
+.Boxes_box_award{
+    margin-top: 2rem;
+}
+
+.Boxes_box_award_circle{
+    margin-top: 5rem;
+    width: 25%;
+    margin: auto;   
+}
+
+.Boxes_box_award_circle_img{
+    width:50%;
+    height: 50px;
+}
+
+.Boxes_box_award_details{
+    margin-top: .8rem;
+    text-align: center;
+}
+
+.Boxes_box_award_details h4{
+    font-size: 5px;
+    line-height: 8px;
+}
+
+.Boxes_box_award_details h5{
+    font-size: 4px;
+    line-height: 6px;
+}
+
+.Boxes_box_award_details p{
+    font-size: 3px;
+    line-height: 6px;
+}
+
+.Boxes_box_award_details h1{
+    width: 60%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.Boxes_box_award_details_button{
+    gap: .4rem;
+    margin-bottom: 2rem;
+}
+
+.Boxes_box_award_details_button button{
+    padding: 5px 0;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    border-radius: 2px;
+    font-size: 5px;
+    line-height: 5px;
+    font-weight: 900;
+    
+}
+
+.Boxes_box_award_details_button h6{
+    font-size: 5px;
+    line-height: 8px;
+    font-weight: 900;
+}
+}
+@media screen and (min-width: 450px) and (max-width: 768px) {
+.Boxes_box{
+    width: 60%;  
+}
+
+.Boxes_box h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 6px;
+    line-height: 10px;
+}
+
+.Boxes_box h3{
+    margin-bottom: 1rem;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+.Boxes_box_square{
+    gap: .7rem;
+}
+
+.Boxes_box_square_box{
+    padding: 1.3rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.Boxes_box_square_box_img1{
+    width: 40%;
+    height: unset;
+}
+.Boxes_box_square_box_img2{
+    margin-bottom: 15%;
+    width: 40%;
+    height: unset;
+}
+.Boxes_box_square_box_img3{
+    margin-bottom: 5%;
+    width: 40%;
+    height: unset;
+}
+.Boxes_box_square_box_img4{
+    margin-bottom: 10%;
+    width: 40%;
+    height: unset;
+}
+
+.Boxes_box_square_box h4{
+    font-size: 8px;
+    line-height: 12px;
+}
+
+.Boxes_box_square_box p{
+    font-size: 5px;
+    line-height: 9px;
+}
+
+.Boxes_box_award{
+    margin-top: 2.5rem;
+}
+
+.Boxes_box_award_circle{
+    margin-top: 5rem;
+    width: 25%;
+    margin: auto;   
+}
+
+.Boxes_box_award_circle_img{
+    width: 50%;
+    height: 70%;
+}
+
+.Boxes_box_award_details{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.Boxes_box_award_details h4{
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.Boxes_box_award_details h5{
+    font-size: 8px;
+    line-height: 12px;
+    font-weight: 700;
+}
+
+.Boxes_box_award_details p{
+    font-size: 7px;
+    line-height: 12px;
+}
+
+.Boxes_box_award_details h1{
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 38px;
+    line-height: 35px;
+}
+
+.Boxes_box_award_details_button{
+    gap: .6rem;
+    margin-bottom: 2.5rem;
+}
+
+.Boxes_box_award_details_button button{
+    padding: 5px 0px;
+    width: 15%;
+    height: 100%;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 7px;
+    line-height: 10px;
+    font-weight: 900;
+}
+
+.Boxes_box_award_details_button h6{
+    font-size: 7px;
+    line-height: 10px;
+    font-weight: 900;
+}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.Boxes_box{
+    width: 60%;  
+}
+
+.Boxes_box h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 6px;
+    line-height: 10px;
+}
+
+.Boxes_box h3{
+    margin-bottom: 1rem;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+.Boxes_box_square{
+    gap: .7rem;
+}
+
+.Boxes_box_square_box{
+    padding: 1.3rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.Boxes_box_square_box_img1{
+    width: 40%;
+    height: unset;
+}
+.Boxes_box_square_box_img2{
+    margin-bottom: 15%;
+    width: 40%;
+    height: unset;
+}
+.Boxes_box_square_box_img3{
+    margin-bottom: 5%;
+    width: 40%;
+    height: unset;
+}
+.Boxes_box_square_box_img4{
+    margin-bottom: 10%;
+    width: 40%;
+    height: unset;
+}
+
+.Boxes_box_square_box h4{
+    font-size: 8px;
+    line-height: 12px;
+}
+
+.Boxes_box_square_box p{
+    font-size: 5px;
+    line-height: 9px;
+}
+
+.Boxes_box_award{
+    margin-top: 2.5rem;
+}
+
+.Boxes_box_award_circle{
+    margin-top: 5rem;
+    width: 25%;
+    margin: auto;   
+}
+
+.Boxes_box_award_circle_img{
+    width: 50%;
+    height: 70%;
+}
+
+.Boxes_box_award_details{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.Boxes_box_award_details h4{
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.Boxes_box_award_details h5{
+    font-size: 8px;
+    line-height: 12px;
+    font-weight: 700;
+}
+
+.Boxes_box_award_details p{
+    font-size: 7px;
+    line-height: 12px;
+}
+
+.Boxes_box_award_details h1{
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 38px;
+    line-height: 35px;
+}
+
+.Boxes_box_award_details_button{
+    gap: .6rem;
+    margin-bottom: 2.5rem;
+}
+
+.Boxes_box_award_details_button button{
+    padding: 5px 0px;
+    width: 15%;
+    height: 100%;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 7px;
+    line-height: 10px;
+    font-weight: 900;
+}
+
+.Boxes_box_award_details_button h6{
+    font-size: 7px;
+    line-height: 10px;
+    font-weight: 900;
+}
+}

@@ -1,0 +1,429 @@
+
+.HeroSection{
+    width: 100%;
+}
+
+.HeroSection_box{
+    padding-top: 6rem;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.HeroSection_box h1{
+    font-family: 'Public Sans';
+    font-size: 82px;
+    line-height: 96px;
+    font-weight: 900;
+    color: #050F3A;
+}
+
+.HeroSection_box p{
+    padding: 4rem 10px;
+    padding-bottom: 8px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(77, 77, 77, 0.65);
+}
+
+.HeroSection_box_started{
+    padding: 0;
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.HeroSection_box_started button{
+    width: 150px;
+    height: 39px;
+    background: #293CE2;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 10px;  
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.HeroSection_box_started h4{
+    color: #293CE2;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.HeroSection_box_img{
+    padding-top: 5rem;
+}
+
+.HeroSection_box_partners{
+    width: auto;
+    height: unset;
+}
+
+@media screen and (min-width: 320px) and (max-width: 448px) {
+    .HeroSection{
+    width: 100%;
+}
+
+.HeroSection_box{
+    padding-top: 1.5rem;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.HeroSection_box h1{
+    font-family: 'Public Sans';
+    font-size: 150%;
+    line-height: 120%;
+    font-weight: 900;
+    color: #050F3A;
+}
+
+.HeroSection_box p{
+    margin-top: -3.2rem;
+    padding: 4rem 10px;
+    padding-bottom: 0px;
+    font-family: "Montserrat";
+    font-size: 33%;
+    font-weight: 700;
+    color: rgba(77, 77, 77, 0.65);
+}
+
+.HeroSection_box_started{
+    padding: 0;
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.HeroSection_box_started button{
+    width: 40px;
+    height: 12px;
+    background: #293CE2;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 4px;  
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4px;
+}
+
+.HeroSection_box_started h4{
+    color: #293CE2;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4px;
+}
+
+.HeroSection_box_img{
+    padding-top: 1rem;
+    width: 100px;
+    height: unset;
+}
+
+.HeroSection_box_partners {
+    width: 100%;
+    height: unset;
+}
+}
+@media screen and (min-width: 449px) and (max-width: 518px) {
+    .HeroSection{
+    width: 100%;
+}
+
+.HeroSection_box{
+    padding-top: 1.5rem;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.HeroSection_box h1{
+    font-family: 'Public Sans';
+    font-size: 200%;
+    line-height: 140%;
+    font-weight: 900;
+    color: #050F3A;
+}
+
+.HeroSection_box p{
+    margin-top: -3.2rem;
+    padding: 4rem 18px;
+    padding-bottom: 0px;
+    font-family: "Montserrat";
+    font-size: 40%;
+    font-weight: 900;
+    color: rgba(77, 77, 77, 0.65);
+}
+
+.HeroSection_box_started{
+    padding: 0;
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.HeroSection_box_started button{
+    width: 45px;
+    height: 14px;
+    background: #293CE2;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 4px;  
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6px;
+}
+
+.HeroSection_box_started h4{
+    color: #293CE2;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 6px;
+}
+
+.HeroSection_box_img{
+    padding-top: 1rem;
+    width: 150px;
+    height: unset;
+}
+
+.HeroSection_box_partners {
+    width: 100%;
+    height: unset;
+}
+}
+@media screen and (min-width: 519px) and (max-width: 640px) {
+    .HeroSection{
+    width: 100%;
+}
+
+.HeroSection_box{
+    padding-top: 1.5rem;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.HeroSection_box h1{
+    font-family: 'Public Sans';
+    font-size: 250%;
+    line-height: 140%;
+    font-weight: 900;
+    color: #050F3A;
+}
+
+.HeroSection_box p{
+    margin-top: -3.2rem;
+    padding: 4rem 18px;
+    padding-bottom: 0px;
+    font-family: "Montserrat";
+    font-size: 50%;
+    font-weight: 900;
+    color: rgba(77, 77, 77, 0.65);
+}
+
+.HeroSection_box_started{
+    padding: 0;
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.HeroSection_box_started button{
+    width: 50px;
+    height: 16px;
+    background: #293CE2;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 4px;  
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7px;
+}
+
+.HeroSection_box_started h4{
+    color: #293CE2;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 7px;
+}
+
+.HeroSection_box_img{
+    padding-top: 1rem;
+    width: 170px;
+    height: unset;
+}
+.HeroSection_box_partners {
+    width: 100%;
+    height: unset;
+}
+}
+@media screen and (min-width: 641px) and (max-width: 766px) {
+    .HeroSection{
+    width: 100%;
+}
+
+.HeroSection_box{
+    padding-top: 1.5rem;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.HeroSection_box h1{
+    font-family: 'Public Sans';
+    font-size: 300%;
+    line-height: 140%;
+    font-weight: 900;
+    color: #050F3A;
+}
+
+.HeroSection_box p{
+    margin-top: -3.2rem;
+    padding: 4rem 18px;
+    padding-bottom: 0px;
+    font-family: "Montserrat";
+    font-size: 60%;
+    font-weight: 900;
+    color: rgba(77, 77, 77, 0.65);
+}
+
+.HeroSection_box_started{
+    padding: 0;
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.HeroSection_box_started button{
+    width: 70px;
+    height: 18px;
+    background: #293CE2;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 4px;  
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+}
+
+.HeroSection_box_started h4{
+    color: #293CE2;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8px;
+}
+
+.HeroSection_box_img{
+    padding-top: 3rem;
+    width: 200px;
+    height: unset;
+}
+.HeroSection_box_partners {
+    width: 100%;
+    height: unset;
+}
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .HeroSection{
+    width: 100%;
+}
+
+.HeroSection_box{
+    padding-top: 1.5rem;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.HeroSection_box h1{
+    font-family: 'Public Sans';
+    font-size: 380%;
+    line-height: 120%;
+    font-weight: 900;
+    color: #050F3A;
+}
+
+.HeroSection_box p{
+    margin-top: -3.2rem;
+    padding: 4rem 18px;
+    padding-bottom: 0px;
+    font-family: "Montserrat";
+    font-size: 80%;
+    font-weight: 900;
+    color: rgba(77, 77, 77, 0.65);
+}
+
+.HeroSection_box_started{
+    padding: 0;
+    padding-top: 12px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.HeroSection_box_started button{
+    width: 80px;
+    height: 20px;
+    background: #293CE2;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 4px;  
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.HeroSection_box_started h4{
+    color: #293CE2;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+}
+
+.HeroSection_box_img{
+    padding-top: 3.2rem;
+    width: 250px;
+    height: unset;
+}
+
+.HeroSection_box_partners {
+    width: 100%;
+    height: unset;
+}
+}
